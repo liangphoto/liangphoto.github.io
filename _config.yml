@@ -1,0 +1,37 @@
+# Site settings
+email:
+baseurl: ""
+paginate: 6
+paginate_path: "/blog/page-:num"
+google_analytics:
+
+# SEO settings
+title: 良幅图
+description: 良幅图(Liang Photo), 是olim平常抓拍的一些照片。由手机，平板，相机等拍摄。
+url: "http://liangphoto.com"
+twitter_username: archwei
+default_img:
+
+# Profile settings
+name: 良幅图 Liang Photo
+profile_img:
+profile: 良幅图(Liang Photo), 平常抓拍的一些照片。手机，平板，相机等拍摄。
+social:
+  github:
+  facebook:
+  twitter:
+  google+:
+  weibo:
+
+# Build settings
+include: ["_categories"]
+exclude: ["_screenshots", "Gemfile", "Gemfile.lock"]
+markdown: kramdown
+permalink: /:year/:month/:day/:title/
+
+# Sass
+sass:
+  style: compressed
+
+# Gems
+gems: [jekyll-paginate, jekyll-sitemap, octopress-autoprefixer]
