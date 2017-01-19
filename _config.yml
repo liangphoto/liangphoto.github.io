@@ -14,8 +14,8 @@ default_img:
 
 # Profile settings
 name: 良幅图 Liang Photo
-profile_img:
-profile: 良幅图(Liang Photo), 平常抓拍的一些照片。手机，平板，相机等拍摄。
+profile_img: http://project.mkzg.com/assets/images/photo1.jpeg
+profile: 良幅图(Liang Photo), 平常抓拍的一些照片。手机，平板，相机等拍摄。。。
 social:
   github:
   facebook:
